@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lap Time Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <img src="F1.png" alt="Formula 1 Logo" class="f1-logo">
+    <h1>Lap Time Tracker</h1>
+    <label for="lap-time">Enter Lap Time (seconds):</label>
+    <input type="number" id="lap-time" placeholder="e.g. 120" min="0">
+    <button id="add-lap">Add Lap Time</button>
+    
+    <h2>Lap Times:</h2>
+    <ul id="lap-times-list"></ul>
+    
+    <h3>Best Lap Time: <span id="best-lap">N/A</span> seconds</h3>
+    <h3>Average Lap Time: <span id="average-lap">N/A</span> seconds</h3>
+
+    <footer>
+      <p>Made by Oussama with <3</p>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
